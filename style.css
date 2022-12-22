@@ -8,3 +8,7 @@ img, .chef-img {
     height: 50%;
     width: 50%;
 }
+
+main {
+    text-align: center;
+}
