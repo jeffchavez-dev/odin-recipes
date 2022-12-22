@@ -8,7 +8,9 @@ img, .chef-img {
     height: 20rem;
     width: 15rem;
 }
-
+body {
+    text-align: center;
+}
 main {
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -16,4 +18,23 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.boxes {
+    background-color: aquamarine;
+    border: 2px solid red;
+    display: flex;
+    margin: 3rem auto;
+    width: 500px;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.boxes > div {
+    background-color: blue;
+    border: 2px solid red;
+    width: 5em;
+    height: 5em;
+    
+    
 }
