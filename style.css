@@ -125,20 +125,26 @@ body {
 
 .information_section {
     display: flex;
+    flex-direction: row;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .information_boxes {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+
 }
 .information_section .box {
     width: 150px;
     height: 150px;
     border: solid 2px var(--btn-clr);
     border-radius: 5px;
-    margin-bottom: 1em;
+    margin: 1em 0;
 }
 
 /* ---- QUOTE SECTION ----- */
