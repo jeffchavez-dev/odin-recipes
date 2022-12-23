@@ -140,8 +140,8 @@ body {
 
 }
 .information_section .box {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     border: solid 2px var(--btn-clr);
     border-radius: 5px;
     margin: 1em 0;
@@ -166,4 +166,38 @@ body {
 
 .quote blockquote {
     font-size: 36px;
+}
+
+.container_cta {
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 920px;
+    max-width: 80%;
+    margin: auto;
+}
+.cta_section {
+    background-color: var(--btn-clr);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.cta_main-text {
+    text-align: left;
+    width: 50%;
+    color: var(--font-secondary-clr);
+    padding: 2em;
+    
+}
+.cta_btn {
+    background-color: var(--btn-clr);
+    color: var(--font-secondary-clr);
+    padding: .5em;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top: .5em;
 }
