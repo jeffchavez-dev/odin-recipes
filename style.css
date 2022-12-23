@@ -24,13 +24,15 @@ body {
     text-align: center;
 }
 .header {
-    background-color: var(--bg-dark-clr);
     color: var(--font-main-clr);
     display: flex;
     flex: 1;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: auto;
-    padding: 1em;
+    padding: 1em 0 ;
+
+    width: 920px;
+    max-width: 80%;
 }
 .header_logo {
     font-size: 24px;
@@ -57,7 +59,7 @@ body {
     color: var(--font-secondary-clr)
 }
 
-.container {
+.container_dark {
     background-color: var(--bg-dark-clr);
 }
 .home {
@@ -75,7 +77,7 @@ body {
     width: 920px;
     max-width: 80%;
     margin: auto;
-    padding: 2em;
+    padding: 2em 0;
 }
 
 .home .main-text-section {
@@ -88,9 +90,74 @@ body {
 }
 
 .home .hero_secondary-text {
+    color: var(--font-secondary-clr);
     font-size: 18px;
+}
+
+.home .main_btn {
+    background-color: var(--btn-clr);
+    color: var(--font-secondary-clr);
+    padding: .5em;
+    border: none;
+    border-radius: 5px;
+    margin-top: .5em;
 }
 .home .chef_img {
     flex: 1;
 }
 
+
+/* ---- INFORMATION SECTION ----- */
+
+
+.information {
+    width: 920px;
+    max-width: 80%;
+    margin: auto;
+    padding: 2em 0;
+}
+
+.information_header {
+    color: var(--font-header-clr);
+    font-size:  36px;
+    margin-bottom: 1em;
+}
+
+.information_section {
+    display: flex;
+}
+.information_boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.information_section .box {
+    width: 150px;
+    height: 150px;
+    border: solid 2px var(--btn-clr);
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+
+/* ---- QUOTE SECTION ----- */
+
+.container_gray {
+    background-color: var(--bg-quote);
+}
+
+.quote {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 920px;
+    max-width: 80%;
+    margin: auto;
+    padding: 2em 0;
+}
+
+.quote blockquote {
+    font-size: 36px;
+}
