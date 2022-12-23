@@ -184,6 +184,7 @@ body {
     justify-content: space-around;
     align-items: center;
     border-radius: 5px;
+    width: 100%;
 }
 
 .cta_main-text {
@@ -200,4 +201,14 @@ body {
     border: 2px solid white;
     border-radius: 5px;
     margin-top: .5em;
+}
+
+
+footer {
+    height: 5vh;
+    background-color: var(--bg-dark-clr);
+    color: var(--font-secondary-clr);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
