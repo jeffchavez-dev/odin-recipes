@@ -4,6 +4,18 @@
     box-sizing: border-box;
 }
 
+:root {
+    --font-main-clr: #f9faf8;
+    --font-secondary-clr: #e5e7eb;
+    --font-logo-clr: #f9faf8;
+    --font-header-clr: #1f2937;
+    --font-quote: #1f2937;
+    --bg-quote: #e5e7eb;
+    --btn-clr: #3882f6;
+    --bg-dark-clr: #1f2937;
+
+}
+
 img, .chef-img {
     height: 20rem;
     width: 15rem;
